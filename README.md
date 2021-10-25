@@ -21,3 +21,5 @@ Each item in the container requires the `scroll-snap-align` set:
     scroll-snap-align: start;
     ...
 ```
+
+> Note: iOS 14.x (Fixed in iOS 15) has an issue with CSS scroll snapping: In the example the container with `scroll-snap-type` will reset its scroll position to 0 when it is redisplayed after visiting the `card` page.
