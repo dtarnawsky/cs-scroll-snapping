@@ -1,5 +1,5 @@
 # Scroll Snapping
-CSSScroll snapping is available in IOS 9 and Chrome and makes it easy to create a slider control to replace ion-slider for simple scenarios.
+CSS Scroll snapping is available in IOS 9 and Chrome and makes it easy to create a slider control to replace ion-slider for simple scenarios.
 
 Check out `tab1.page.html` to see a horizontal slider which uses the following css for its container:
 ```css
