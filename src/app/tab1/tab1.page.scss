@@ -12,7 +12,9 @@
 
 .card {
     scroll-snap-align: start;
-    background-color: rgba(0,0,0,0.2);
+    scroll-snap-stop: always;
+
+    background-color: rgba(255,255,255,0.2);
     border-radius: 10px;
     min-width: 150px;
     height: 100px;
