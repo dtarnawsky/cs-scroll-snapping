@@ -7,13 +7,12 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Scroll Snapping Example</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div class="container">
-    <div class="card" *ngFor="let card of cards" (click)="open(card)">{{card}}</div>
+  <div class="container" id="scroll-container">
+    <div class="card" *ngFor="let card of cards" (click)="open(card)">
+      <div class="card-container">
+        {{card}}
+      </div>
+      </div>
   </div>
 </ion-content>
